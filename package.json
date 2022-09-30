@@ -6,18 +6,6 @@
     "scripts": {
         "start": "node index.js",
     },
-    "chromium-args": "--disable-devtools",
-    "window": {
-        "title": "Movies4Life",
-        "width": 800,
-        "height": 600,
-        "icon": "./favicon.png",
-        "min_width": 500,
-        "min_height": 300,
-        "resizable": true,
-        "show_in_taskbar": true,
-        "frame": true
-    },
     "dependencies": {
         "axios": "^0.27.2",
         "bootstrap": "^4.6.2",
@@ -31,5 +19,4 @@
         "style-loader": "^3.3.1"
     },
     "type": "module",
-    "bg-script": "index.js"
 }
