@@ -2,6 +2,9 @@
     "name": "Movies4Life",
     "main": "index.html",
     "nodejs": true,
+    "scripts": {
+        "start": "node index.js",
+    },
     "chromium-args": "--disable-devtools",
     "window": {
         "title": "Movies4Life",
