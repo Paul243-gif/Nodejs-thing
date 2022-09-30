@@ -24,7 +24,7 @@ let body_e;
 
 http.createServer(function (req, res) {
     var q = url.parse(req.url, true).query;
-    fetch('http://192.168.1.103:8080/api/v1/search?site=1337x&limit=20&query='+q.query)
+    fetch('http://212.251.83.105:8080/api/v1/search?site=1337x&limit=20&query='+q.query)
         .then(res => res.json())
         .then(json => {
             head_s = "<head>";
