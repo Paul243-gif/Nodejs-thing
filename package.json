@@ -1,0 +1,31 @@
+{
+    "name": "Movies4Life",
+    "main": "index.html",
+    "nodejs": true,
+    "chromium-args": "--disable-devtools",
+    "window": {
+        "title": "Movies4Life",
+        "width": 800,
+        "height": 600,
+        "icon": "./favicon.png",
+        "min_width": 500,
+        "min_height": 300,
+        "resizable": true,
+        "show_in_taskbar": true,
+        "frame": true
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "bootstrap": "^4.6.2",
+        "css-loader": "^6.7.1",
+        "express": "^4.18.1",
+        "formidable": "^2.0.1",
+        "jquery": "^3.6.1",
+        "node-fetch": "^3.2.10",
+        "path": "^0.12.7",
+        "popper.js": "^1.16.1",
+        "style-loader": "^3.3.1"
+    },
+    "type": "module",
+    "bg-script": "index.js"
+}
