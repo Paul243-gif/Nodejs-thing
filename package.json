@@ -1,8 +1,6 @@
 {
     "name": "Movies4Life",
     "version": "1.0.0",
-    "main": "index.html",
-    "nodejs": true,
     "scripts": {
         "start": "node index.js",
     },
